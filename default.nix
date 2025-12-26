@@ -18,7 +18,7 @@ mnw.lib.wrap pkgs {
   plugins = {
     startAttrs = import ./packages/startPlugins.nix args;
     start = import ./packages/treesitter.nix args;
-    optAttrs = import ./packages/optPlugins.nix args;
+    optAttrs = import ./packages/optionalPlugins.nix args;
     dev.config = {
       pure = ./nvim;
       impure = "/home/bernardo/nvim"; # Absolute path needed
