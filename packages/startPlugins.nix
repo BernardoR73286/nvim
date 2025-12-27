@@ -42,6 +42,10 @@ in {
     tokyonight-nvim
     catppuccin-nvim
     vim-moonfly-colors
+    gruber-darker-nvim
+    citruszest-nvim
+    oxocarbon-nvim
+    kanagawa-paper-nvim
     # Filetype-specific
     helpview-nvim
     markdown-preview-nvim
