@@ -28,4 +28,4 @@ vim.schedule(function()
     vim.o.clipboard = 'unnamedplus'
 end)
 
-vim.cmd("colorscheme catppuccin")
+vim.cmd.colorscheme("moonfly")

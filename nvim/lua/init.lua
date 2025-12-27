@@ -1,3 +1,3 @@
-require("autocommands")
-require("keymaps")
-require("options")
+require("wyz.autocommands")
+require("wyz.keymaps")
+require("wyz.options")

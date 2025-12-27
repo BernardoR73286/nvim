@@ -39,6 +39,8 @@ in {
     # Colorschemes
     onedarkpro-nvim
     tokyonight-nvim
+    catppuccin
+    vim-moonfly-colors
     # Filetype-specific
     helpview-nvim
     markdown-preview-nvim
