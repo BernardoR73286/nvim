@@ -14,7 +14,6 @@ return {
                     vim.cmd.WriteOil()
                     actions.select.callback()
                 end,
-                "actions.select",
                 ["<M-h>"] = "actions.select_split",
             },
             winopts = {
