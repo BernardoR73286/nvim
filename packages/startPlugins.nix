@@ -20,6 +20,7 @@ in {
     nvim-lspconfig
     nvim-surround
     rainbow-delimiters-nvim
+    indent-blankline-nvim
     oil-nvim
     # Neat features
     colorful-menu-nvim # Show completion types in color
@@ -39,7 +40,7 @@ in {
     # Colorschemes
     onedarkpro-nvim
     tokyonight-nvim
-    catppuccin
+    catppuccin-nvim
     vim-moonfly-colors
     # Filetype-specific
     helpview-nvim
