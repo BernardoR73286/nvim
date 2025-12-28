@@ -16,7 +16,7 @@ return {
     end,
     },
     {
-        "rainbow-delimiters.nvim",
+        "rainbow-delimiters-nvim",
         after = function()
           local highlight = {
             "RainbowDelimiterRed",
@@ -33,10 +33,10 @@ return {
         end,
     },
     {
-        "indent-blankline.nvim",
+        "indent-blankline-nvim",
         before = function()
           LZN.trigger_load("nvim-treesitter")
-          LZN.trigger_load("rainbow-delimiters.nvim")
+          LZN.trigger_load("rainbow-delimiters-nvim")
         end,
         event = "DeferredUIEnter",
         after = function()
