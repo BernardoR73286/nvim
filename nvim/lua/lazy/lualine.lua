@@ -31,6 +31,9 @@ return {
             icon = " •",
             separator = { left = "(", right = ")" },
           },
+          function()
+            return require("lsp-progress").progress()
+          end,
         },
         lualine_x = {
           {
@@ -38,10 +41,6 @@ return {
             sources = { "nvim_lsp", "nvim_diagnostic" },
             symbols = { error = "", warn = "", info = "", hint = "" },
           },
-          function()
-            return require("lsp-progress").progress()
-          end,
-
         },
         lualine_y = {
           {

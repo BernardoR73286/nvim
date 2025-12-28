@@ -13,7 +13,7 @@ in {
     blink-cmp
     conform-nvim
     fzf-lua
-    lualine-lsp-progress
+    lsp-progress-nvim
     lualine-nvim
     nvim-autopairs
     nvim-lspconfig
