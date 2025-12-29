@@ -23,7 +23,7 @@ vim.g.mapleader = " "
 -- vim.cmd("colorscheme tokyo-night")
 -- vim.cmd.colorscheme("moonfly")
 vim.cmd.colorscheme("gruber-darker")
-require("nvim-highlight-colors").setup({})
+-- require("nvim-highlight-colors").setup({})
 
 -- system clipboard
 vim.schedule(function()
