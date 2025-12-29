@@ -19,13 +19,13 @@ vim.o.updatetime = 250
 -- Decrease mapped sequence wait time
 vim.o.timeoutlen = 300
 
-
 vim.g.mapleader = " "
 -- vim.cmd("colorscheme tokyo-night")
+-- vim.cmd.colorscheme("moonfly")
+vim.cmd.colorscheme("gruber-darker")
+require("nvim-highlight-colors").setup({})
 
 -- system clipboard
 vim.schedule(function()
-    vim.o.clipboard = 'unnamedplus'
+  vim.o.clipboard = "unnamedplus"
 end)
-
-vim.cmd.colorscheme("moonfly")
