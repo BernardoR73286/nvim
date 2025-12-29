@@ -1,7 +1,14 @@
 return {
     "snacks-nvim",
-    event = "DeferredUIEnter",
+    lazy = false,
     after = function()
-        require("snacks-nvim").setup()
+        require("snacks").setup({
+            quickfile = { enabled = true },
+            indent = {
+                enabled = true,
+                scope = { enabled = false },
+            },
+            input = { enabled = true },
+        })
     end,
 }
