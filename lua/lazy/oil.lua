@@ -26,5 +26,6 @@ return {
             watch_for_changes = true,
 
         })
+        vim.keymap.set("n", "<leader>e", require("oil").open, { desc = "Open Oil" })
     end
 }

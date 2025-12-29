@@ -3,7 +3,6 @@ return {
   lazy = false,
   -- event = "DeferredUIEnter",
   before = function()
-    print("loading before triggers lualine")
     LZN.trigger_load("nvim-web-devicons")
     LZN.trigger_load("lsp-progress-nvim")
   end,
