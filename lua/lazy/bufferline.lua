@@ -9,8 +9,8 @@ return {
       options = {
         mode = "buffers",
         diagnostics = "nvim_lsp",
-        show_close_icon = false,
-        show_buffer_close_icons = false,
+        show_close_icon = true,
+        show_buffer_close_icons = true,
         separator_style = "thin", -- or "slant", "padded_slant", "thick"
         always_show_bufferline = true,
       },
