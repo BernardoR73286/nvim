@@ -1,6 +1,6 @@
 return {
   "lazydev-nvim",
-  ft = "lua",
+  lazy = false,
   after = function()
     require("lazydev").setup({
       enabled = function(root_dir)

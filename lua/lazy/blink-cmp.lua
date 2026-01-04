@@ -40,8 +40,8 @@ return {
 
         -- TODO: consider using something other than <Tab>, see
         -- https://github.com/L3MON4D3/LuaSnip/issues/953
-        ["<Tab>"] = { "snippet_forward", "fallback" },
-        ["<S-Tab>"] = { "snippet_backward", "fallback" },
+        -- ["<Tab>"] = { "snippet_forward", "fallback" },
+        -- ["<S-Tab>"] = { "snippet_backward", "fallback" },
       },
 
       completion = {
